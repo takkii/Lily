@@ -3,11 +3,12 @@
 ### プロジェクト名、Lily
 
 #### マイマクロの保存先
->$HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ß Support/LibreOfficeVanilla/4/user/Scripts/python
 
-#### 実際にLibreOfficeで作成されるディレクトリ
+> $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/Scripts/python
 
->$HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/
+#### 実際に LibreOffice で作成されるディレクトリ
+
+> $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/
 
 #### ディレクトリ操作
 
@@ -22,23 +23,23 @@ git clone https://github.com/takkii/Lily.git
 
 cd Lily
 
-mv python $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/Scripts
+mv python \$HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/Scripts
 ```
 
-_※ マイマクロのためにディレクトリ操作するとCalcで実行することができる_
+_※ マイマクロのためにディレクトリ操作すると Calc で実行することができる_
 
-#### LibreOffice側で拡張機能APSOを検索
+#### LibreOffice 側で拡張機能 APSO を検索
 
-_→ (インストールまたは既存APSOを使う)_
+_→ (インストールまたは既存 APSO を使う)_
 
 [ メモ ]
 
 ```markdown
 動作
-・Pythonの標準機能は使える
-・LibreOfficeでCalcではシートに反映できる
+・Python の標準機能は使える
+・LibreOffice で Calc ではシートに反映できる
 
 マイマクロ
-・Hello.pyは、Helloなどの文字列操作を行う
-・Num.pyは、数字の四則演算を行う
+・Hello.py は、Hello などの文字列操作を行う
+・Num.py は、数字の四則演算を行う
 ```
