@@ -13,11 +13,15 @@ _LibreOfficeのあれこれ_
 
 >mkdir Scripts
 
+>git clone https://github.com/takkii/Lily.git
+
 >mv python $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/Scripts
 
-※ pythonフォルダはLilyから移動してもよい。
+_※ pythonフォルダはLilyから移動してもよい_
 
-#### LibreOffice側で拡張機能、APSOを検索
+#### LibreOffice側で拡張機能APSOを検索
+
+_→ (インストールまたは既存APSOを使う)_
 
 [ メモ ]
 
