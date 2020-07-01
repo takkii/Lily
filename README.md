@@ -19,6 +19,11 @@ _LibreOfficeのあれこれ_
 [ メモ ]
 
 ```markdown
+動作
 ・Pythonの標準機能は使える
 ・LibreOfficeでCalcではシートに反映できる
+
+マイマクロ
+・Hello.pyは、Helloなどの文字列操作を行う
+・Num.pyは、数字の四則演算を行う
 ```
