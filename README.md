@@ -1,25 +1,31 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)![GitHub release](https://img.shields.io/github/release/takkii/Lily.svg?style=flat)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/Lily.svg?style=flat)](GitHub)
 
-
 ### プロジェクト名、Lily
 
-_LibreOfficeのあれこれ_
+#### マイマクロの保存先
+>$HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ß Support/LibreOfficeVanilla/4/user/Scripts/python
 
-マイマクロの保存先
-> $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ß Support/LibreOfficeVanilla/4/user/Scripts/python
+#### 実際にLibreOfficeで作成されるディレクトリ
 
-実際にLibreOfficeで作成されるディレクトリ
->cd $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/
+>$HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/
 
->mkdir Scripts
+#### ディレクトリ操作
 
->cd $HOME (任意のユーザディレクトリ)
+```markdown
+cd $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/
 
->git clone https://github.com/takkii/Lily.git
+mkdir Scripts
 
->mv python $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/Scripts
+cd $HOME (任意のユーザディレクトリ)
 
-_※ pythonフォルダはLilyから移動してもよい_
+git clone https://github.com/takkii/Lily.git
+
+cd Lily
+
+mv python $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/Scripts
+```
+
+_※ マイマクロのためにディレクトリ操作するとCalcで実行することができる_
 
 #### LibreOffice側で拡張機能APSOを検索
 
