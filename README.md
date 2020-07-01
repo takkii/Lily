@@ -4,20 +4,20 @@
 
 #### マイマクロの保存先
 
-> \$HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/Scripts/python
+> $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/Scripts/python
 
 #### 実際に LibreOffice で作成されるディレクトリ
 
-> \$HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/
+> $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/
 
 #### ディレクトリ操作
 
 ```markdown
-cd \$HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/
+cd $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/
 
 mkdir Scripts
 
-cd \$HOME (任意のユーザディレクトリ)
+cd $HOME (任意のユーザディレクトリ)
 
 git clone https://github.com/takkii/Lily.git
 
