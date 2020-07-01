@@ -13,6 +13,8 @@ _LibreOfficeのあれこれ_
 
 >mkdir Scripts
 
+>cd $HOME (任意のユーザディレクトリ)
+
 >git clone https://github.com/takkii/Lily.git
 
 >mv python $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application\ Support/LibreOfficeVanilla/4/user/Scripts
