@@ -6,7 +6,7 @@ _LibreOfficeのあれこれ_
 > $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application Support/LibreOfficeVanilla/4/user/Scripts/python
 
 実際にLibreOfficeで作成されるディレクトリ
->cd HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application Support/LibreOfficeVanilla/4/user/
+>cd $HOME/Library/Containers/com.collabora.libreoffice-free/Data/Library/Application Support/LibreOfficeVanilla/4/user/
 
 >mkdir Scripts
 
