@@ -5,3 +5,5 @@
 Lilyは百合のこと、百合の花言葉は威厳。
 
 威厳とは、堂々としていておごそかな様子である。
+
+取説は[こちら](https://github.com/takkii/Lily/wiki/manual)
